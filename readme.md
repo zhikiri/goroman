@@ -1,5 +1,7 @@
 # goroman
 
+[![Build Status](https://travis-ci.org/zhikiri/goroman.svg?branch=master)](https://travis-ci.org/zhikiri/goroman)
+
 Convert arabic to roman numbers and backwards.
 
 ## Description
