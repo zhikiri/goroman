@@ -30,9 +30,4 @@ func TestArabicToRoman(t *testing.T) {
 			t.Errorf("Assertion is wrong, %s is not equal to %s", rom, exp)
 		}
 	}
-	/*
-		ara := Arabic(249)
-		rom := ara.toRoman()
-		fmt.Printf("\n\n%s\n", rom)
-	*/
 }
