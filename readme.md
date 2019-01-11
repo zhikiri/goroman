@@ -1,7 +1,6 @@
-# goroman
+# goroman [![Build Status](https://travis-ci.org/zhikiri/goroman.svg?branch=master)](https://travis-ci.org/zhikiri/goroman)
 
-[![Build Status](https://travis-ci.org/zhikiri/goroman.svg?branch=master)](https://travis-ci.org/zhikiri/goroman)
-
+Numbers convertion library.
 Convert arabic to roman numbers and backwards.
 
 ## Description
@@ -9,6 +8,7 @@ Convert arabic to roman numbers and backwards.
 Package contain 2 public types: `Arabic` and `Roman`.
 
 - `Arabic` based on int type and have `toRoman` method
+
 - `Roman` based on string type and have `toArabic` method
 
 ## Example
@@ -23,3 +23,7 @@ fmt.Println(rom.toArabic())
 ```
 
 The same logic applying backwards.
+
+## Summary
+
+Project is finished.
